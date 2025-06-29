@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0057D9;  /* Azul de fondo del navbar */
+    padding: 10px 20px;
+    color: white;               /* Letras blancas del título */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left img.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar-left .nombre {
+    font-size: 35px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-button {
+    color: yellow;                 /* Letras amarillas */
+    font-weight: bold;            /* Negrita */
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #0057D9;    /* Fondo azul como el navbar */
+    border-radius: 5px;
+    font-size: 25px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #0040A8;    /* Azul más oscuro al pasar el ratón */
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 93vh;
+    background-color: #f0f0f0; /* Opcional */
+}
+
+#mapa iframe {
+    width: 100vw;
+    height: 100vh;
+    border: 0;
+    border-radius: 30px;
+}
