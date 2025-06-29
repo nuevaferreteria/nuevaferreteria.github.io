@@ -42,7 +42,7 @@ nav.navbar {
     color: yellow;
     text-decoration: none;
     padding: 8px 15px;
-    background-color: white;
+    background-color: yellow;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
