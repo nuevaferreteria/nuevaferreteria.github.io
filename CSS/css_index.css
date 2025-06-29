@@ -29,8 +29,9 @@ nav.navbar {
 }
 
 .navbar-left .nombre {
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
+    color: yellow;
 }
 
 .navbar-right {
@@ -45,6 +46,7 @@ nav.navbar {
     padding: 8px 15px;
     background-color: #0057D9;    /* Fondo azul como el navbar */
     border-radius: 5px;
+    font-size: 25px;
     transition: background-color 0.3s;
 }
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nueva Ferretería</title>
+  <link rel="stylesheet" href="CSS/css_contacto.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <span class="nombre">Nueva Ferretería</span>
+    </div>
+    <div class="navbar-right">
+      <a href="#" class="nav-button">Inicio</a>
+      <a href="#" class="nav-button">Catálogo</a>
+      <a href="#" class="nav-button">Mapa</a>
+      <a href="#" class="nav-button">Contacto</a>
+    </div>
+  </nav>
+
+  <div class="contacto-contenedor">
+    <div class="contacto-info">
+      <h2 style="padding-top: 80px;">📞 Contáctanos</h2>
+      <p style="padding-top: 20px;"><strong>Teléfono:</strong> +34 600 123 456</p>
+      <p style="padding-top: 20px;"><strong>Email:</strong> contacto@ferreteriaejemplo.com</p>
+      <p style="padding-top: 20px;"><strong>Dirección:</strong> Calle Principal 123, Algeciras, Cádiz</p>
+    </div>
+
+    <div class="contacto-formulario">
+      <h2>📬 Envíanos un mensaje</h2>
+      <form action="enviar.php" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required />
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="Escribe tu correo..." required />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
