@@ -4,13 +4,11 @@
 .navbar {
     background-color: blue;
     display: flex;
-    /* Usa flexbox para alinear los elementos */
     align-items: center;
-    /* Centra los elementos verticalmente */
     padding: 0 20px;
     font-size: 30px;
     font-weight: bold;
-    /* Añade un poco de padding a izquierda y derecha */
+    height: 100px; /* NUEVO: altura fija */
 }
 
 /* Estiliza todos los enlaces excepto el título */
@@ -19,12 +17,9 @@
     color: yellow;
     text-align: center;
     padding: 20px;
-    /* Ajusta este valor según sea necesario */
     font-size: 50px;
     transition: background-color 0.2s;
-    /* Suaviza la transición del color de fondo */
 }
-
 /* Aplica el efecto hover solo a los enlaces que no tienen la clase .title */
 .navbar a:not(.title):hover {
     background-color: #ddd;
@@ -51,7 +46,7 @@
 .navbar a {
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 100%; /* Para que se alineen verticalmente */
 }
 
 /*FIN DEL NAVBAR*/
