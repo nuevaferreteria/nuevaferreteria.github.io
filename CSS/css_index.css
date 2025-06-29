@@ -12,9 +12,9 @@ nav.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0057D9;
+    background-color: #0057D9;  /* Azul de fondo del navbar */
     padding: 10px 20px;
-    color: white;
+    color: white;               /* Letras blancas del título */
 }
 
 .navbar-left {
@@ -39,14 +39,15 @@ nav.navbar {
 }
 
 .nav-button {
-    color: yellow;
+    color: yellow;                 /* Letras amarillas */
+    font-weight: bold;            /* Negrita */
     text-decoration: none;
     padding: 8px 15px;
-    background-color: yellow;
+    background-color: #0057D9;    /* Fondo azul como el navbar */
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .nav-button:hover {
-    background-color: #777;
+    background-color: #0040A8;    /* Azul más oscuro al pasar el ratón */
 }
