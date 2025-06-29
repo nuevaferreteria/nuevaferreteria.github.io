@@ -12,7 +12,7 @@ nav.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: blue;
     padding: 10px 20px;
     color: white;
 }
@@ -39,10 +39,10 @@ nav.navbar {
 }
 
 .nav-button {
-    color: white;
+    color: yellow;
     text-decoration: none;
     padding: 8px 15px;
-    background-color: #555;
+    background-color: white;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
