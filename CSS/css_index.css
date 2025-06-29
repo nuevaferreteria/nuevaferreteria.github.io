@@ -8,6 +8,8 @@
     align-items: center;
     /* Centra los elementos verticalmente */
     padding: 0 20px;
+    font-size: 30px;
+    font-weight: bold;
     /* Añade un poco de padding a izquierda y derecha */
 }
 
