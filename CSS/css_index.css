@@ -13,12 +13,11 @@
 
 /* Estiliza todos los enlaces excepto el título */
 .navbar a:not(.title) {
+    font-weight: bold;
     color: yellow;
     text-align: center;
     padding: 20px;
-    font-weight: bold;
     /* Ajusta este valor según sea necesario */
-    text-decoration: none;
     font-size: 20px;
     transition: background-color 0.2s;
     /* Suaviza la transición del color de fondo */
