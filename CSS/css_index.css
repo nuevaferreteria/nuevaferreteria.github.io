@@ -2,7 +2,7 @@
 
 /* Estilos CSS básicos para la barra de navegación usando flexbox */
 .navbar {
-    background-color: rgba(0, 255, 153, 0.662);
+    background-color: blue;
     display: flex;
     /* Usa flexbox para alinear los elementos */
     align-items: center;
